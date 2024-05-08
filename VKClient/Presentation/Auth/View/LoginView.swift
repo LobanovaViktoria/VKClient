@@ -1,10 +1,3 @@
-//
-//  LoginView.swift
-//  VK
-//
-//  Created by Viktoria Lobanova on 03.05.2024.
-//
-
 import SwiftUI
 
 struct LoginView: View {
@@ -25,10 +18,8 @@ struct LoginView: View {
             } else {
                 WebView(token: $loginViewModel.token)
                     .ignoresSafeArea(.all)
-                
             }
         }
-        
     }
 }
 

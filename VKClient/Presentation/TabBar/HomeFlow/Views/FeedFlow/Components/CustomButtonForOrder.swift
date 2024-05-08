@@ -1,10 +1,3 @@
-//
-//  CustomButtonForOrder.swift
-//  VKClient
-//
-//  Created by Viktoria Lobanova on 07.05.2024.
-//
-
 import SwiftUI
 
 enum TypeButtonForRecord {

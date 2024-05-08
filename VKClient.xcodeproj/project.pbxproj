@@ -22,7 +22,6 @@
 		328BE0532BE907210017894E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BE02C2BE907210017894E /* WebView.swift */; };
 		328BE0542BE907210017894E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BE02E2BE907210017894E /* LoginViewModel.swift */; };
 		328BE0552BE907210017894E /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BE0312BE907210017894E /* CustomNavBar.swift */; };
-		328BE0572BE907210017894E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BE0352BE907210017894E /* SplashView.swift */; };
 		328BE0582BE907210017894E /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BE0372BE907210017894E /* ChatsView.swift */; };
 		328BE0592BE907210017894E /* ClipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BE03A2BE907210017894E /* ClipsView.swift */; };
 		328BE05A2BE907210017894E /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BE03D2BE907210017894E /* FeedView.swift */; };
@@ -30,7 +29,6 @@
 		328BE05C2BE907210017894E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BE03F2BE907210017894E /* HomeView.swift */; };
 		328BE05D2BE907210017894E /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BE0402BE907210017894E /* NewsView.swift */; };
 		328BE05E2BE907210017894E /* HubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BE0432BE907210017894E /* HubView.swift */; };
-		328BE05F2BE907210017894E /* FriendsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BE0462BE907210017894E /* FriendsResponse.swift */; };
 		328BE0602BE907210017894E /* VideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BE0482BE907210017894E /* VideosView.swift */; };
 		328BE0632BE907210017894E /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BE04E2BE907210017894E /* TabBarView.swift */; };
 		328BE06B2BE90E010017894E /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BE06A2BE90E010017894E /* RecordView.swift */; };
@@ -56,7 +54,6 @@
 		328BE02C2BE907210017894E /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		328BE02E2BE907210017894E /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		328BE0312BE907210017894E /* CustomNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
-		328BE0352BE907210017894E /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		328BE0372BE907210017894E /* ChatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
 		328BE03A2BE907210017894E /* ClipsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipsView.swift; sourceTree = "<group>"; };
 		328BE03D2BE907210017894E /* FeedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
@@ -64,7 +61,6 @@
 		328BE03F2BE907210017894E /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		328BE0402BE907210017894E /* NewsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		328BE0432BE907210017894E /* HubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HubView.swift; sourceTree = "<group>"; };
-		328BE0462BE907210017894E /* FriendsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsResponse.swift; sourceTree = "<group>"; };
 		328BE0482BE907210017894E /* VideosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosView.swift; sourceTree = "<group>"; };
 		328BE04E2BE907210017894E /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		328BE06A2BE90E010017894E /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
@@ -210,14 +206,6 @@
 			path = CommonComponents;
 			sourceTree = "<group>";
 		};
-		328BE0362BE907210017894E /* Splash */ = {
-			isa = PBXGroup;
-			children = (
-				328BE0352BE907210017894E /* SplashView.swift */,
-			);
-			path = Splash;
-			sourceTree = "<group>";
-		};
 		328BE0382BE907210017894E /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,14 +274,6 @@
 			path = HubFlow;
 			sourceTree = "<group>";
 		};
-		328BE0472BE907210017894E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				328BE0462BE907210017894E /* FriendsResponse.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		328BE0492BE907210017894E /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,7 +298,6 @@
 				328BE03C2BE907210017894E /* ClipsFlow */,
 				328BE0422BE907210017894E /* HomeFlow */,
 				328BE0452BE907210017894E /* HubFlow */,
-				328BE0472BE907210017894E /* Model */,
 				328BE04A2BE907210017894E /* VideosFlow */,
 			);
 			path = TabBar;
@@ -329,7 +308,6 @@
 			children = (
 				328BE0302BE907210017894E /* Auth */,
 				328BE0322BE907210017894E /* CommonComponents */,
-				328BE0362BE907210017894E /* Splash */,
 				328BE04F2BE907210017894E /* TabBar */,
 			);
 			path = Presentation;
@@ -452,7 +430,6 @@
 			files = (
 				328BE00D2BE905FA0017894E /* ContentView.swift in Sources */,
 				328BE0532BE907210017894E /* WebView.swift in Sources */,
-				328BE05F2BE907210017894E /* FriendsResponse.swift in Sources */,
 				328BE07A2BEA69EC0017894E /* HomeViewModel.swift in Sources */,
 				328BE0582BE907210017894E /* ChatsView.swift in Sources */,
 				328BE05D2BE907210017894E /* NewsView.swift in Sources */,
@@ -461,7 +438,6 @@
 				328BE0632BE907210017894E /* TabBarView.swift in Sources */,
 				328BE0552BE907210017894E /* CustomNavBar.swift in Sources */,
 				328BE0592BE907210017894E /* ClipsView.swift in Sources */,
-				328BE0572BE907210017894E /* SplashView.swift in Sources */,
 				328BE0512BE907210017894E /* User.swift in Sources */,
 				328BE0252BE906F20017894E /* ViewFactory.swift in Sources */,
 				320B714B2BEB780100E5B319 /* UserDataService.swift in Sources */,

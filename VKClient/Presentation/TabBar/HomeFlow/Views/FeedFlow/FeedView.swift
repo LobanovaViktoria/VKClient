@@ -12,34 +12,36 @@ struct FeedView: View {
                 .ignoresSafeArea()
             ScrollView {
                 stories
-                RecordView(record:                     Record(
-                    id: UUID(),
-                    image: "avatar",
-                    author: "Author",
-                    date: "01.01.2023",
-                    description: "Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description",
-                    photos: ["avatar", "iconVK", "avatar",
-                            "avatar", "iconVK", "iconVK", "iconVK",],
-                    likes: 5,
-                    comments: 10,
-                    forwards: 15,
-                    views: 100
-                )
+                RecordView(record:
+                            Record(
+                                id: UUID(),
+                                image: "avatar",
+                                author: "Author",
+                                date: "01.01.2023",
+                                description: "Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description",
+                                photos: ["avatar", "iconVK", "avatar",
+                                         "avatar", "iconVK", "iconVK", "iconVK",],
+                                likes: 5,
+                                comments: 10,
+                                forwards: 15,
+                                views: 100
+                            )
                 )
                 
-                RecordView(record:                     Record(
-                    id: UUID(),
-                    image: "avatar",
-                    author: "Author",
-                    date: "01.01.2023",
-                    description: "Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description",
-                    photos: ["avatar", "iconVK", "avatar",
-                            "avatar", "iconVK", "iconVK", "iconVK",],
-                    likes: 5,
-                    comments: 10,
-                    forwards: 15,
-                    views: 100
-                )
+                RecordView(record:
+                            Record(
+                                id: UUID(),
+                                image: "avatar",
+                                author: "Author",
+                                date: "01.01.2023",
+                                description: "Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description",
+                                photos: ["avatar", "iconVK", "avatar",
+                                         "avatar", "iconVK", "iconVK", "iconVK",],
+                                likes: 5,
+                                comments: 10,
+                                forwards: 15,
+                                views: 100
+                            )
                 )
             }
             .scrollIndicators(.hidden)
@@ -76,8 +78,7 @@ extension FeedView {
         }
         .background(
             Rectangle()
-                .foregroundStyle(Color.white100Black70
-                )
+                .foregroundStyle(Color.white100Black70)
                 .cornerRadius(14)
                 .frame(height: 100)
         )
